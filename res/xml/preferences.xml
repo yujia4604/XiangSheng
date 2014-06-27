@@ -1,0 +1,8 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/bgmsg"
+        android:summary="WIFI网络下接收后台推送价格变动通知"
+        android:title="@string/bgmsg" />
+</PreferenceScreen>

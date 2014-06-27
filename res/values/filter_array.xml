@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filter_text">
+        <item>宝贝</item>
+        <item>店铺</item>
+    </string-array>
+
+    <string-array name="fileter_key">
+        <item>item</item>
+        <item>shop</item>
+    </string-array>
+    
+    
+</resources>

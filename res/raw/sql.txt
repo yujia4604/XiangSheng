@@ -1,0 +1,10 @@
+drop table if exists 'baobei';
+CREATE TABLE `baobei` (`_id` integer NOT NULL PRIMARY KEY AUTOINCREMENT,  
+`ITEMID` varchar(255) DEFAULT NULL, 
+`NAME` varchar(255) DEFAULT NULL,
+`SHOP` varchar(255) DEFAULT NULL,
+`PRICE` varchar(255) DEFAULT NULL, 
+`OLDPRICE` float  DEFAULT 0.0,   
+'SELLCONUT' integer DEFAULT 0,
+'ISPRICECHANGED' boolean DEFAULT false,
+`ITEMURL` varchar(255) DEFAULT NULL)
